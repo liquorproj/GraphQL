@@ -1,0 +1,13 @@
+type Link {
+  id: ID! @id
+  createdAt: DateTime! @createdAt
+  description: String! 
+  url: String!
+}
+
+type Wine {
+  id: ID! @id
+  name: String!
+  vintage: Float!
+  price: Float!
+}
